@@ -1,0 +1,24 @@
+{
+  "name": "parcel-get-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^7.2.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-runtime": "^6.26.0",
+    "postcss-modules": "^1.1.0",
+    "posthtml-img-autosize": "^0.1.1"
+  },
+  "devDependencies": {
+    "express": "^4.16.2"
+  },
+  "scripts": {
+    "watch": "parcel watch src/index.html",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
